@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup as bs
-constData = "D:/rar/sources/git/client/pack_maker/property/property/"
+constData = "" # enter your xml file path here
 
 def MakeUnique(s):
     return s[len(constData):]
